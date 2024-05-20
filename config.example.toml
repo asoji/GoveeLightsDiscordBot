@@ -1,0 +1,10 @@
+[discord]
+serverSnowflake = "" # Server ID
+token = "" # Bot Token
+owner = "" # Discord ID of Bot Owner
+
+# All Values can be obtained on https://govee.readme.io/reference/getlightdeviceinfo using your API key
+[govee]
+apiKey = "" # Get your API Key through `Applying` [getting] for an API Key in the Govee Home App on your phone
+deviceModel = "" # Your Light/Appliance's Device Model
+macId = "" # Your Light/Appliance's Identifier
