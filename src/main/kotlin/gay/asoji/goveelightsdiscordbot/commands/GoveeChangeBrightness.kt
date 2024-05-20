@@ -36,8 +36,8 @@ class GoveeChangeBrightness : Scaffold {
             setColor(Color(brightnessInput))
             setTitle("Gay Lights Brightness Changed!")
             setDescription("${ctx.member!!.asMention} has changed the gay lights to $brightnessInput%!")
-            if (brightnessInput > 100) {
-                setFooter("Are you trying to kill the lights?")
+            if (brightness > 100) {
+                setFooter("Are you trying to kill the lights by putting the value at $brightness?")
             }
         }
     }
